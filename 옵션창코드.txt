@@ -1,0 +1,271 @@
+<div id="options" class="style-scope ytd-search-filter-options-dialog-renderer"><ytd-search-filter-group-renderer class="style-scope ytd-search-filter-options-dialog-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-group-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><h4 id="filter-group-name" class="style-scope ytd-search-filter-group-renderer">
+  <yt-formatted-string class="style-scope ytd-search-filter-group-renderer">구분</yt-formatted-string>
+</h4>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIQAQ%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="동영상 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">동영상</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIQCQ%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="Shorts 동영상 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">Shorts 동영상</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIQAg%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="채널 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">채널</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIQAw%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="재생목록 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">재생목록</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIQBA%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="영화 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">영화</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+<dom-repeat class="style-scope ytd-search-filter-group-renderer"><template is="dom-repeat"></template></dom-repeat>
+</ytd-search-filter-group-renderer><ytd-search-filter-group-renderer class="style-scope ytd-search-filter-options-dialog-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-group-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><h4 id="filter-group-name" class="style-scope ytd-search-filter-group-renderer">
+  <yt-formatted-string class="style-scope ytd-search-filter-group-renderer">길이</yt-formatted-string>
+</h4>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIYBA%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="3분 미만 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">3분 미만</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIYBQ%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="3~20분 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">3~20분</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIYAg%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="20분 초과 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">20분 초과</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+<dom-repeat class="style-scope ytd-search-filter-group-renderer"><template is="dom-repeat"></template></dom-repeat>
+</ytd-search-filter-group-renderer><ytd-search-filter-group-renderer class="style-scope ytd-search-filter-options-dialog-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-group-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><h4 id="filter-group-name" class="style-scope ytd-search-filter-group-renderer">
+  <yt-formatted-string class="style-scope ytd-search-filter-group-renderer">업로드 날짜</yt-formatted-string>
+</h4>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIIAg%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="오늘 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">오늘</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIIAw%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="이번 주 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">이번 주</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIIBA%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="이번 달 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">이번 달</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIIBQ%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="올해 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">올해</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+<dom-repeat class="style-scope ytd-search-filter-group-renderer"><template is="dom-repeat"></template></dom-repeat>
+</ytd-search-filter-group-renderer><ytd-search-filter-group-renderer class="style-scope ytd-search-filter-options-dialog-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-group-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><h4 id="filter-group-name" class="style-scope ytd-search-filter-group-renderer">
+  <yt-formatted-string class="style-scope ytd-search-filter-group-renderer">기능별</yt-formatted-string>
+</h4>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgJAAQ%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="라이브 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">라이브</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgJwAQ%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="4K 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">4K</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIgAQ%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="HD 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">HD</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIoAQ%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="자막 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">자막</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgIwAQ%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="크리에이티브 커먼즈 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">크리에이티브 커먼즈</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgJ4AQ%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="360° 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">360°</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgPQAQE%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="VR180 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">VR180</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgI4AQ%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="3D 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">3D</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgPIAQE%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="HDR 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">HDR</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgO4AQE%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="위치 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">위치</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=EgJIAQ%253D%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="구입한 항목 검색">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">구입한 항목</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+<dom-repeat class="style-scope ytd-search-filter-group-renderer"><template is="dom-repeat"></template></dom-repeat>
+</ytd-search-filter-group-renderer><ytd-search-filter-group-renderer class="style-scope ytd-search-filter-options-dialog-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-group-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><h4 id="filter-group-name" class="style-scope ytd-search-filter-group-renderer">
+  <yt-formatted-string class="style-scope ytd-search-filter-group-renderer">우선순위</yt-formatted-string>
+</h4>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer selected"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" aria-selected="true">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="관련성별 우선순위 지정">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">관련성</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer" hidden=""><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+
+  
+    <ytd-search-filter-renderer class="style-scope ytd-search-filter-group-renderer"><!--css-build:shady--><!--css_build_scope:ytd-search-filter-renderer--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js--><a id="endpoint" class="yt-simple-endpoint style-scope ytd-search-filter-renderer" href="/results?search_query=%E3%85%81%E3%84%B4%E3%84%B9%E3%85%87%E3%85%81&amp;sp=CAM%253D">
+<div id="label" class="style-scope ytd-search-filter-renderer" title="인기도별 우선순위 지정">
+    <yt-formatted-string class="style-scope ytd-search-filter-renderer">인기도</yt-formatted-string>
+    <yt-icon id="dismiss-x" icon="yt-icons:dismissal" class="style-scope ytd-search-filter-renderer"><!--css-build:shady--><!--css_build_scope:yt-icon--><!--css_build_styles:video.youtube.src.web.polymer.shared.ui.styles.yt_base_styles.yt.base.styles.css.js,video.youtube.src.web.polymer.shared.core.yt_icon.yt.icon.css.js--><span class="yt-icon-shape style-scope yt-icon ytSpecIconShapeHost"><div style="width: 100%; height: 100%; display: block; fill: currentcolor;"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 100%; height: 100%;"><path d="M17.293 5.293 12 10.586 6.707 5.293a1 1 0 10-1.414 1.414L10.586 12l-5.293 5.293a1 1 0 001.414 1.414L12 13.414l5.293 5.293a1 1 0 001.414-1.414L13.414 12l5.293-5.293a1 1 0 10-1.414-1.414Z"></path></svg></div></span></yt-icon>
+  </div>
+</a>
+</ytd-search-filter-renderer>
+  <dom-if class="style-scope ytd-search-filter-group-renderer"><template is="dom-if"></template></dom-if>
+<dom-repeat class="style-scope ytd-search-filter-group-renderer"><template is="dom-repeat"></template></dom-repeat>
+</ytd-search-filter-group-renderer></div>
