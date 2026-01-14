@@ -709,7 +709,7 @@ border: 1px solid #8183ff;</string>
                  <cursorShape>PointingHandCursor</cursorShape>
                 </property>
                 <property name="text">
-                 <string>지난 1시간</string>
+                 <string>오늘</string>
                 </property>
                 <property name="autoExclusive">
                  <bool>false</bool>
@@ -734,7 +734,7 @@ border: 1px solid #8183ff;</string>
                  <cursorShape>PointingHandCursor</cursorShape>
                 </property>
                 <property name="text">
-                 <string>오늘</string>
+                 <string>이번 주</string>
                 </property>
                 <property name="autoExclusive">
                  <bool>false</bool>
@@ -763,31 +763,6 @@ border: 1px solid #8183ff;</string>
                  <cursorShape>PointingHandCursor</cursorShape>
                 </property>
                 <property name="text">
-                 <string>이번 주</string>
-                </property>
-                <property name="autoExclusive">
-                 <bool>false</bool>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QRadioButton" name="udfilter_btn_5">
-                <property name="minimumSize">
-                 <size>
-                  <width>100</width>
-                  <height>25</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>25</height>
-                 </size>
-                </property>
-                <property name="cursor">
-                 <cursorShape>PointingHandCursor</cursorShape>
-                </property>
-                <property name="text">
                  <string>이번 달</string>
                 </property>
                 <property name="autoExclusive">
@@ -796,7 +771,7 @@ border: 1px solid #8183ff;</string>
                </widget>
               </item>
               <item>
-               <widget class="QRadioButton" name="udfilter_btn_6">
+               <widget class="QRadioButton" name="udfilter_btn_5">
                 <property name="minimumSize">
                  <size>
                   <width>100</width>
@@ -891,13 +866,13 @@ border: 1px solid #8183ff;</string>
            <widget class="QRadioButton" name="gbfilter_btn_2">
             <property name="minimumSize">
              <size>
-              <width>150</width>
+              <width>120</width>
               <height>25</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>16777215</width>
+              <width>120</width>
               <height>25</height>
              </size>
             </property>
@@ -906,6 +881,31 @@ border: 1px solid #8183ff;</string>
             </property>
             <property name="text">
              <string>동영상</string>
+            </property>
+            <property name="autoExclusive">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="gbfilter_btn_3">
+            <property name="minimumSize">
+             <size>
+              <width>120</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>120</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string>Shorts 동영상</string>
             </property>
             <property name="autoExclusive">
              <bool>false</bool>
@@ -993,7 +993,7 @@ border: 1px solid #8183ff;</string>
              <cursorShape>PointingHandCursor</cursorShape>
             </property>
             <property name="text">
-             <string>4분미만</string>
+             <string>3분미만</string>
             </property>
             <property name="autoExclusive">
              <bool>false</bool>
@@ -1018,7 +1018,7 @@ border: 1px solid #8183ff;</string>
              <cursorShape>PointingHandCursor</cursorShape>
             </property>
             <property name="text">
-             <string>4~20분</string>
+             <string>3~20분</string>
             </property>
             <property name="autoExclusive">
              <bool>false</bool>
@@ -1874,6 +1874,119 @@ border: 1px solid #8183ff;</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_26">
+          <item>
+           <widget class="QLabel" name="label_86">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>맑은 고딕</family>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(213, 246, 255);
+color:rgb(0, 0, 0);
+border: 1px solid #8183ff;</string>
+            </property>
+            <property name="text">
+             <string>우선순위(정렬)</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="sortfilter_btn_1">
+            <property name="minimumSize">
+             <size>
+              <width>120</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>120</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string>선택안함</string>
+            </property>
+            <property name="autoExclusive">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="sortfilter_btn_2">
+            <property name="minimumSize">
+             <size>
+              <width>120</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>120</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string>관련성</string>
+            </property>
+            <property name="autoExclusive">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="sortfilter_btn_3">
+            <property name="minimumSize">
+             <size>
+              <width>120</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>120</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string>인기도</string>
+            </property>
+            <property name="autoExclusive">
+             <bool>false</bool>
             </property>
            </widget>
           </item>
