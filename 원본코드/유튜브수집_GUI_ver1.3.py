@@ -68,32 +68,40 @@ class MainDialog(QDialog):
         pm = pm.scaledToWidth(220)
         self.yj_image_btn.setPixmap(pm)
 
-        # 업로드날짜 필터 라디오 버튼 그룹화
+        # 업로드날짜 필터 라디오 버튼 그룹화 (지난 1시간 제거됨)
         self.ud_button_group = QButtonGroup(self)
-        self.ud_button_group.addButton(self.udfilter_btn_1)
-        self.ud_button_group.addButton(self.udfilter_btn_2)
-        self.ud_button_group.addButton(self.udfilter_btn_3)
-        self.ud_button_group.addButton(self.udfilter_btn_4)
-        self.ud_button_group.addButton(self.udfilter_btn_5)
-        self.ud_button_group.addButton(self.udfilter_btn_6)
+        self.ud_button_group.addButton(self.udfilter_btn_1)  # 선택안함
+        self.ud_button_group.addButton(self.udfilter_btn_2)  # 오늘
+        self.ud_button_group.addButton(self.udfilter_btn_3)  # 이번 주
+        self.ud_button_group.addButton(self.udfilter_btn_4)  # 이번 달
+        self.ud_button_group.addButton(self.udfilter_btn_5)  # 올해
 
         self.udfilter_btn_1.setChecked(True)
 
-        # 구분 필터 라디오 버튼 그룹화
+        # 구분 필터 라디오 버튼 그룹화 (Shorts 동영상 추가)
         self.gb_button_group = QButtonGroup(self)
-        self.gb_button_group.addButton(self.gbfilter_btn_1)
-        self.gb_button_group.addButton(self.gbfilter_btn_2)
+        self.gb_button_group.addButton(self.gbfilter_btn_1)  # 선택안함
+        self.gb_button_group.addButton(self.gbfilter_btn_2)  # 동영상
+        self.gb_button_group.addButton(self.gbfilter_btn_3)  # Shorts 동영상
 
         self.gbfilter_btn_1.setChecked(True)
 
-        # 길이 필터 라디오 버튼 그룹화
+        # 길이 필터 라디오 버튼 그룹화 (3분미만, 3~20분, 20분초과)
         self.len_button_group = QButtonGroup(self)
-        self.len_button_group.addButton(self.lenfilter_btn_1)
-        self.len_button_group.addButton(self.lenfilter_btn_2)
-        self.len_button_group.addButton(self.lenfilter_btn_3)
-        self.len_button_group.addButton(self.lenfilter_btn_4)
+        self.len_button_group.addButton(self.lenfilter_btn_1)  # 선택안함
+        self.len_button_group.addButton(self.lenfilter_btn_2)  # 3분미만
+        self.len_button_group.addButton(self.lenfilter_btn_3)  # 3~20분
+        self.len_button_group.addButton(self.lenfilter_btn_4)  # 20분초과
 
         self.lenfilter_btn_1.setChecked(True)
+
+        # 우선순위(정렬) 필터 라디오 버튼 그룹화
+        self.sort_button_group = QButtonGroup(self)
+        self.sort_button_group.addButton(self.sortfilter_btn_1)  # 선택안함
+        self.sort_button_group.addButton(self.sortfilter_btn_2)  # 관련성
+        self.sort_button_group.addButton(self.sortfilter_btn_3)  # 인기도
+
+        self.sortfilter_btn_1.setChecked(True)
 
         # 증가추이 라디오 버튼 그룹화
         self.button_group = QButtonGroup(self)
@@ -134,6 +142,7 @@ class MainDialog(QDialog):
             with open(setting_file_1, 'r') as file:
                 lines = file.readlines()
 
+            # 업로드 날짜 필터 (5개: 선택안함, 오늘, 이번주, 이번달, 올해)
             try:
                 if lines[0].strip() == "True" :
                     self.udfilter_btn_1.setChecked(True)
@@ -159,23 +168,25 @@ class MainDialog(QDialog):
                     self.udfilter_btn_5.setChecked(True)
             except :
                 pass
+
+            # 구분 필터 (3개: 선택안함, 동영상, Shorts 동영상)
             try:
                 if lines[5].strip() == "True" :
-                    self.udfilter_btn_6.setChecked(True)
-            except :
-                pass
-
-            try:
-                if lines[6].strip() == "True" :
                     self.gbfilter_btn_1.setChecked(True)
             except :
                 pass
             try:
-                if lines[7].strip() == "True" :
+                if lines[6].strip() == "True" :
                     self.gbfilter_btn_2.setChecked(True)
             except :
                 pass
+            try:
+                if lines[7].strip() == "True" :
+                    self.gbfilter_btn_3.setChecked(True)
+            except :
+                pass
 
+            # 길이 필터 (4개: 선택안함, 3분미만, 3~20분, 20분초과)
             try:
                 if lines[8].strip() == "True" :
                     self.lenfilter_btn_1.setChecked(True)
@@ -197,88 +208,105 @@ class MainDialog(QDialog):
             except :
                 pass
 
+            # 우선순위 필터 (3개: 선택안함, 관련성, 인기도)
             try:
-                self.id_btn.setText(lines[12].strip())
+                if lines[12].strip() == "True" :
+                    self.sortfilter_btn_1.setChecked(True)
+            except :
+                pass
+            try:
+                if lines[13].strip() == "True" :
+                    self.sortfilter_btn_2.setChecked(True)
+            except :
+                pass
+            try:
+                if lines[14].strip() == "True" :
+                    self.sortfilter_btn_3.setChecked(True)
+            except :
+                pass
+
+            try:
+                self.id_btn.setText(lines[15].strip())
             except:
                 self.id_btn.setText('')
             try:
-                self.pw_btn.setText(lines[13].strip())
+                self.pw_btn.setText(lines[16].strip())
             except:
                 self.pw_btn.setText('')
 
             try:
-                self.vidiq_path_btn.setText(lines[14].strip())
+                self.vidiq_path_btn.setText(lines[17].strip())
             except:
                 self.vidiq_path_btn.setText('')
             try:
-                self.folder_path_btn.setText(lines[15].strip())
+                self.folder_path_btn.setText(lines[18].strip())
             except:
                 self.folder_path_btn.setText('')
 
             try:
-                self.limitcnt_btn.setText(lines[16].strip())
+                self.limitcnt_btn.setText(lines[19].strip())
             except:
                 self.limitcnt_btn.setText('')
             try:
-                self.viewcnt_btn.setText(lines[17].strip())
+                self.viewcnt_btn.setText(lines[20].strip())
             except:
                 self.viewcnt_btn.setText('')
 
             try:
-                selected_date_1 = QDate.fromString(lines[18].strip(), "yyyy-MM-dd")
+                selected_date_1 = QDate.fromString(lines[21].strip(), "yyyy-MM-dd")
                 self.startdate_btn.setDate(selected_date_1)
             except:
                 pass
             try:
-                selected_date_2 = QDate.fromString(lines[19].strip(), "yyyy-MM-dd")
+                selected_date_2 = QDate.fromString(lines[22].strip(), "yyyy-MM-dd")
                 self.enddate_btn.setDate(selected_date_2)
             except:
                 pass
             try:
-                self.len_start_btn.setText(lines[20].strip())
+                self.len_start_btn.setText(lines[23].strip())
             except:
                 self.len_start_btn.setText('')
             try:
-                self.len_end_btn.setText(lines[21].strip())
+                self.len_end_btn.setText(lines[24].strip())
             except:
                 self.len_end_btn.setText('')
 
             try:
-                self.member_start_btn.setText(lines[22].strip())
+                self.member_start_btn.setText(lines[25].strip())
             except:
                 self.member_start_btn.setText('')
             try:
-                self.member_end_btn.setText(lines[23].strip())
+                self.member_end_btn.setText(lines[26].strip())
             except:
                 self.member_end_btn.setText('')
 
             try:
-                if lines[24].strip() == "True" :
+                if lines[27].strip() == "True" :
                     self.grp1_btn.setChecked(True)
             except :
                 pass
             try:
-                if lines[25].strip() == "True" :
+                if lines[28].strip() == "True" :
                     self.grp2_btn.setChecked(True)
             except :
                 pass
             try:
-                self.grp_num_btn.setText(lines[26].strip())
+                self.grp_num_btn.setText(lines[29].strip())
             except:
                 self.grp_num_btn.setText('')
 
             try:
-                self.delay_start_btn.setText(lines[27].strip())
+                self.delay_start_btn.setText(lines[30].strip())
             except:
                 self.delay_start_btn.setText('')
             try:
-                self.delay_end_btn.setText(lines[28].strip())
+                self.delay_end_btn.setText(lines[31].strip())
             except:
                 self.delay_end_btn.setText('')
             try:
-                self.exl_path_btn.setText(lines[29].strip())
-                if lines[29].strip() != '' :
-                    self.load_excel_data(lines[29].strip())
+                self.exl_path_btn.setText(lines[32].strip())
+                if lines[32].strip() != '' :
+                    self.load_excel_data(lines[32].strip())
             except:
                 self.exl_path_btn.setText('')
 
@@ -325,20 +353,28 @@ class MainDialog(QDialog):
 
     def setting_save(self) :
 
+        # 업로드 날짜 필터 (5개)
         udfilter_1 = self.udfilter_btn_1.isChecked()
         udfilter_2 = self.udfilter_btn_2.isChecked()
         udfilter_3 = self.udfilter_btn_3.isChecked()
         udfilter_4 = self.udfilter_btn_4.isChecked()
         udfilter_5 = self.udfilter_btn_5.isChecked()
-        udfilter_6 = self.udfilter_btn_6.isChecked()
 
+        # 구분 필터 (3개)
         gbfilter_1 = self.gbfilter_btn_1.isChecked()
         gbfilter_2 = self.gbfilter_btn_2.isChecked()
+        gbfilter_3 = self.gbfilter_btn_3.isChecked()
 
+        # 길이 필터 (4개)
         lenfilter_1 = self.lenfilter_btn_1.isChecked()
         lenfilter_2 = self.lenfilter_btn_2.isChecked()
         lenfilter_3 = self.lenfilter_btn_3.isChecked()
         lenfilter_4 = self.lenfilter_btn_4.isChecked()
+
+        # 우선순위 필터 (3개)
+        sortfilter_1 = self.sortfilter_btn_1.isChecked()
+        sortfilter_2 = self.sortfilter_btn_2.isChecked()
+        sortfilter_3 = self.sortfilter_btn_3.isChecked()
 
         vidiq_id = self.id_btn.text()
         vidiq_pw = self.pw_btn.text()
@@ -352,8 +388,8 @@ class MainDialog(QDialog):
         wish_date_start = self.startdate_btn.date()
         wish_date_end = self.enddate_btn.date()
 
-        wish_date_start = wish_date_start.toString("yyyy-MM-dd") 
-        wish_date_end = wish_date_end.toString("yyyy-MM-dd") 
+        wish_date_start = wish_date_start.toString("yyyy-MM-dd")
+        wish_date_end = wish_date_end.toString("yyyy-MM-dd")
 
         len_start = self.len_start_btn.text()
         len_end = self.len_end_btn.text()
@@ -370,20 +406,28 @@ class MainDialog(QDialog):
         exl_path = self.exl_path_btn.text()
 
         with open(setting_file_1, 'w') as file:
+            # 업로드 날짜 필터 (5개)
             file.write(str(udfilter_1) + '\n')
             file.write(str(udfilter_2) + '\n')
             file.write(str(udfilter_3) + '\n')
             file.write(str(udfilter_4) + '\n')
             file.write(str(udfilter_5) + '\n')
-            file.write(str(udfilter_6) + '\n')
 
+            # 구분 필터 (3개)
             file.write(str(gbfilter_1) + '\n')
             file.write(str(gbfilter_2) + '\n')
+            file.write(str(gbfilter_3) + '\n')
 
+            # 길이 필터 (4개)
             file.write(str(lenfilter_1) + '\n')
             file.write(str(lenfilter_2) + '\n')
             file.write(str(lenfilter_3) + '\n')
             file.write(str(lenfilter_4) + '\n')
+
+            # 우선순위 필터 (3개)
+            file.write(str(sortfilter_1) + '\n')
+            file.write(str(sortfilter_2) + '\n')
+            file.write(str(sortfilter_3) + '\n')
 
             file.write(str(vidiq_id) + '\n')
             file.write(str(vidiq_pw) + '\n')
@@ -635,41 +679,62 @@ class MainDialog(QDialog):
             channel_ecp_keywords = self.cnname_except_btn.toPlainText()
             title_ecp_keywords = self.title_except_btn.toPlainText() 
 
+            # 업로드 날짜 필터 (선택안함, 오늘, 이번주, 이번달, 올해)
             udfilter_check_1 = self.udfilter_btn_1.isChecked()
             udfilter_check_2 = self.udfilter_btn_2.isChecked()
             udfilter_check_3 = self.udfilter_btn_3.isChecked()
             udfilter_check_4 = self.udfilter_btn_4.isChecked()
             udfilter_check_5 = self.udfilter_btn_5.isChecked()
-            udfilter_check_6 = self.udfilter_btn_6.isChecked()
 
+            # 구분 필터 (선택안함, 동영상, Shorts 동영상)
             gbfilter_check_1 = self.gbfilter_btn_1.isChecked()
             gbfilter_check_2 = self.gbfilter_btn_2.isChecked()
+            gbfilter_check_3 = self.gbfilter_btn_3.isChecked()
 
+            # 길이 필터 (선택안함, 3분미만, 3~20분, 20분초과)
             lenfilter_check_1 = self.lenfilter_btn_1.isChecked()
             lenfilter_check_2 = self.lenfilter_btn_2.isChecked()
             lenfilter_check_3 = self.lenfilter_btn_3.isChecked()
             lenfilter_check_4 = self.lenfilter_btn_4.isChecked()
 
+            # 우선순위 필터 (선택안함, 관련성, 인기도)
+            sortfilter_check_1 = self.sortfilter_btn_1.isChecked()
+            sortfilter_check_2 = self.sortfilter_btn_2.isChecked()
+            sortfilter_check_3 = self.sortfilter_btn_3.isChecked()
+
+            # 업로드 날짜 텍스트 설정
+            ud_text = ''
             if udfilter_check_2 :
-                ud_text = '지난 1시간'
-            if udfilter_check_3 :
                 ud_text = '오늘'
-            if udfilter_check_4 :
+            if udfilter_check_3 :
                 ud_text = '이번 주'
-            if udfilter_check_5 :
+            if udfilter_check_4 :
                 ud_text = '이번 달'
-            if udfilter_check_6 :
+            if udfilter_check_5 :
                 ud_text = '올해'
 
+            # 구분 텍스트 설정
+            gb_text = ''
             if gbfilter_check_2 :
                 gb_text = '동영상'
+            if gbfilter_check_3 :
+                gb_text = 'Shorts 동영상'
 
+            # 길이 텍스트 설정
+            len_text = ''
             if lenfilter_check_2 :
-                len_text = '4분 미만'
+                len_text = '3분 미만'
             if lenfilter_check_3 :
-                len_text = '4~20분'
+                len_text = '3~20분'
             if lenfilter_check_4 :
                 len_text = '20분 초과'
+
+            # 우선순위 텍스트 설정
+            sort_text = ''
+            if sortfilter_check_2 :
+                sort_text = '관련성'
+            if sortfilter_check_3 :
+                sort_text = '인기도'
 
 
             # 유효성 검사
@@ -927,28 +992,34 @@ class MainDialog(QDialog):
 
                     view_tabs = driver.find_elements(By.CSS_SELECTOR, "#chips > yt-chip-cloud-chip-renderer")
 
-                    for view_tab in view_tabs : 
+                    for view_tab in view_tabs :
                         if view_tab.text == '동영상' :
                             view_tab.click()
                             time.sleep(3)
 
-                    # 유튜브 검색필터 추가
-                    for i in range(3) :
-                        if i == 0 and udfilter_check_1 == True :
+                    # 유튜브 검색필터 추가 (새 UI 순서: 구분 → 길이 → 업로드날짜 → 우선순위)
+                    for i in range(4) :
+                        # 구분 필터 (선택안함이면 건너뜀)
+                        if i == 0 and gbfilter_check_1 == True :
                             continue
-                        if i == 1 and udfilter_check_1 == False :
+                        # 길이 필터 (선택안함이면 건너뜀)
+                        if i == 1 and lenfilter_check_1 == True :
                             continue
-                        if i == 1 and gbfilter_check_1 == True :
+                        # 업로드 날짜 필터 (선택안함이면 건너뜀)
+                        if i == 2 and udfilter_check_1 == True :
                             continue
-                        if i == 2 and lenfilter_check_1 == True :
+                        # 우선순위 필터 (선택안함이면 건너뜀)
+                        if i == 3 and sortfilter_check_1 == True :
                             continue
 
                         if i == 0 :
-                            search_txt = ud_text
-                        if i == 1 :
                             search_txt = gb_text
-                        if i == 2 :
+                        if i == 1 :
                             search_txt = len_text
+                        if i == 2 :
+                            search_txt = ud_text
+                        if i == 3 :
+                            search_txt = sort_text
 
                         filter_c_tag = driver.find_element(By.CSS_SELECTOR, ".yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-trailing.yt-spec-button-shape-next--enable-backdrop-filter-experiment")
                         filter_c_tag.click()
@@ -956,15 +1027,19 @@ class MainDialog(QDialog):
 
                         filter_tags = driver.find_elements(By.CSS_SELECTOR, "ytd-search-filter-renderer")
 
+                        # 새 UI 인덱스 (구분 → 길이 → 업로드날짜 → 우선순위)
                         if i == 0 :
-                            search_txt = ud_text
-                            rst_filter_tags = filter_tags[:5]
-                        if i == 1 :
                             search_txt = gb_text
-                            rst_filter_tags = filter_tags[5:9]
-                        if i == 2 :
+                            rst_filter_tags = filter_tags[:5]  # 구분: 동영상, Shorts 동영상, 채널, 재생목록, 영화
+                        if i == 1 :
                             search_txt = len_text
-                            rst_filter_tags = filter_tags[9:12]
+                            rst_filter_tags = filter_tags[5:8]  # 길이: 3분 미만, 3~20분, 20분 초과
+                        if i == 2 :
+                            search_txt = ud_text
+                            rst_filter_tags = filter_tags[8:12]  # 업로드 날짜: 오늘, 이번 주, 이번 달, 올해
+                        if i == 3 :
+                            search_txt = sort_text
+                            rst_filter_tags = filter_tags[-2:]  # 우선순위: 관련성, 인기도
 
                         for rst_filter_tag in rst_filter_tags :
                             current_tag = rst_filter_tag.find_element(By.CSS_SELECTOR, "#label")
